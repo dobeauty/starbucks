@@ -156,7 +156,7 @@ function random(min, max) {
 function floatingObject(selector, delay, size) {
   gsap.to(
     selector, // 선택자
-    random(1.5, 2.5), // 애니메이션 동작 시간
+    random(1.5,2.5), // 애니메이션 동작 시간 (속도감)
     {
       delay: random(0, delay), // 얼마나 늦게 애니메이션을 시작할 것인지 지연 시간을 설정.
       y: size, // `transform: translateY(수치);`와 같음. 수직으로 얼마나 움직일지 설정.
