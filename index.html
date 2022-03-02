@@ -34,7 +34,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
   <!--Google Material Icons-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-
+  <link rel="stylesheet" href="./css/common.css" />
   <link rel="stylesheet" href="./css/main.css" />
 
   <!--GSAP & ScrollToPlugin-->
@@ -49,6 +49,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
 
   <script defer src="./js/youtube.js"></script>
+  <script defer src="./js/common.js"></script>
+  <!-- 공통으로 적용되는 JS를 먼저 불러온 다음에 추가적인 main.js를 불러온다. -->
   <script defer src="./js/main.js"></script>
 </head>
 <body>
@@ -64,7 +66,8 @@
       <div class="sub-menu">
         <ul class="menu">
           <li>
-            <a href="/signin">Sign In</a>
+            <a href="/signin">Sign In</a> 
+            <!-- 도메인/signin/index.html이 생략됨 -->
           </li>
           <li>
             <a href="javascript:void(0)">My Starbucks</a>
